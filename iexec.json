@@ -1,0 +1,25 @@
+{
+  "description": "Provides a way to retrieve the n-th first decimals of PI. n is given as an input parameter. The output is \"3.\" followed by as many digits as the input. e.g. for the input \"4\": 3.1415.",
+  "license": "MIT",
+  "author": "?",
+  "social": {
+    "website": "?",
+    "github": "?"
+  },
+  "logo": "logo.png",
+  "buyConf": {
+    "params": {
+      "iexec_args": ""
+    },
+    "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "trust": "0",
+    "callback": "0x0000000000000000000000000000000000000000"
+  },
+  "app": {
+    "owner": "0xf642D7e86F53aA9f7A5ECD359e902EC1AF07F7ab",
+    "name": "pi-computer",
+    "type": "DOCKER",
+    "multiaddr": "docker.io/iexechub/pi-computer:1.0.0",
+    "checksum": "0xa28d8ae83ae586b4c8addd60413a8302798891411a8f87b5f0987050d0d73816"
+  }
+}
